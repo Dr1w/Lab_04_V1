@@ -1,23 +1,23 @@
 ---
 name: New Bug Report 1.4
 description: File a bug report
-title: "[Bug]: "
+title: "[Feature]: "
 labels: ["Feature", "triage"]
 projects: ["octo-org/1", "octo-org/44"]
 assignees:
   - octocat
 body:
-  - type: markdown
-    attributes:
-      value: |
-        Thanks for taking the time to fill out this bug report!
-
   - type: input
     id: contact_details  # Adjusted the id value
     attributes:
       label: Contact Details
       description: What is your name?
       placeholder: ex. Drew
+
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time to fill out this bug report!
 
   - type: dropdown
     id: request_type  # Adjusted the id value
