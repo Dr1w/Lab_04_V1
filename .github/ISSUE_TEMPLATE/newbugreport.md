@@ -6,7 +6,6 @@ labels: ["bug", "triage"]
 projects: ["octo-org/1", "octo-org/44"]
 assignees:
   - octocat
-  ---
 body:
   - type: markdown
     attributes:
@@ -64,8 +63,7 @@ body:
       options:
         - label: I agree to follow this project's Code of Conduct
           required: true
-
-
+---
 
 
 
