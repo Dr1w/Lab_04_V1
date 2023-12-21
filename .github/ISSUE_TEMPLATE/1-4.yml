@@ -46,4 +46,6 @@ body:
       label: What are the details of your suggestion?
       description: Explain what do you want 
       render: shell
+      value: "Feature details!"
+
 ---
